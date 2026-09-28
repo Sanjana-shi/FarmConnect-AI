@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_message_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DCFCE7"
+        android:maxWidth="280dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_msg_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer Murugan"
+            android:textColor="#166534"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Please arrive at 6:30 AM before direct sun. East gate of field near banyan tree."
+            android:textColor="#1E293B"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:text="07:45 AM"
+            android:textColor="#64748B"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

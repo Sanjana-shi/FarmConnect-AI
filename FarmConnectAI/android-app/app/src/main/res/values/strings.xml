@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">FarmConnect AI</string>
+    <string name="app_tagline">Direct Farmer-Worker Agricultural Network</string>
+    <string name="select_language">Select Your Language</string>
+    <string name="select_language_subtitle">Choose the language you are most comfortable with</string>
+    <string name="continue_btn">Continue</string>
+
+    <!-- Login & Auth -->
+    <string name="login_title">Welcome to FarmConnect</string>
+    <string name="login_subtitle">Enter your mobile number to sign in or create an account</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="mobile_hint">98765 43210</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="otp_title">Verify Mobile Number</string>
+    <string name="otp_subtitle">Enter the 6-digit OTP code sent to %1$s</string>
+    <string name="verify_otp">Verify &amp; Continue</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="resend_timer">Resend OTP in %1$ds</string>
+    <string name="dev_otp_notice">Development Mode: Default test OTP is 123456</string>
+
+    <!-- Role Selection -->
+    <string name="choose_role_title">I am a...</string>
+    <string name="choose_role_subtitle">Select how you want to use FarmConnect AI</string>
+    <string name="role_farmer">FARMER</string>
+    <string name="role_farmer_desc">I have land and need agricultural labor</string>
+    <string name="role_worker">AGRICULTURAL WORKER</string>
+    <string name="role_worker_desc">I want to find farm work and earn fair wages</string>
+
+    <!-- Registration -->
+    <string name="register_farmer_title">Farmer Registration</string>
+    <string name="register_worker_title">Worker Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="village_town">Village / Town</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="farm_size">Farm Size (Acres)</string>
+    <string name="main_crops">Main Crops</string>
+    <string name="experience_years">Years of Experience</string>
+    <string name="select_skills">Select Your Skills</string>
+    <string name="availability_status">Availability Status</string>
+    <string name="available">Available Now</string>
+    <string name="not_available">Not Available</string>
+    <string name="complete_registration">Complete Registration</string>
+
+    <!-- Farmer Dashboard -->
+    <string name="farmer_dashboard">Farmer Dashboard</string>
+    <string name="find_workers">Find Workers</string>
+    <string name="post_a_job">Post a Job</string>
+    <string name="my_jobs">My Jobs</string>
+    <string name="applications">Applications</string>
+    <string name="hired_workers">Hired Workers</string>
+    <string name="wage_calculator">Wage Calculator</string>
+    <string name="ai_assistant">AI Assistant</string>
+    <string name="active_jobs_count">Active Jobs</string>
+    <string name="hired_count">Workers Hired</string>
+    <string name="profile_completed">%1$d%% Profile Completed</string>
+
+    <!-- Worker Dashboard -->
+    <string name="worker_dashboard">Worker Dashboard</string>
+    <string name="find_jobs">Find Jobs</string>
+    <string name="nearby_jobs">Nearby Jobs</string>
+    <string name="my_applications">My Applications</string>
+    <string name="my_work">My Work History</string>
+    <string name="my_profile">My Profile</string>
+    <string name="reliability_score">Reliability Score: %1$d/100</string>
+    <string name="recommended_jobs">Recommended Jobs For You</string>
+    <string name="per_day">₹%1$s / day</string>
+    <string name="apply_now">Apply Now</string>
+
+    <!-- Common -->
+    <string name="logout">Logout</string>
+    <string name="loading">Connecting to server...</string>
+    <string name="error_network">Unable to connect. Please check network or try again.</string>
+    <string name="voice_prompt">Tap to speak in your language...</string>
+</resources>

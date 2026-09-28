@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">फार्मकनेक्ट AI</string>
+    <string name="app_tagline">किसान और कृषि श्रमिक डिजिटल मंच</string>
+    <string name="select_language">अपनी भाषा चुनें</string>
+    <string name="select_language_subtitle">अपनी पसंदीदा भाषा का चयन करें</string>
+    <string name="continue_btn">आगे बढ़ें</string>
+
+    <string name="login_title">फार्मकनेक्ट में आपका स्वागत है</string>
+    <string name="login_subtitle">लॉग इन या खाता बनाने के लिए मोबाइल नंबर दर्ज करें</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="send_otp">ओटीपी भेजें</string>
+    <string name="otp_title">मोबाइल नंबर सत्यापन</string>
+    <string name="otp_subtitle">%1$s पर भेजे गए 6 अंकों का ओटीपी दर्ज करें</string>
+    <string name="verify_otp">सत्यापित करें और आगे बढ़ें</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+
+    <string name="choose_role_title">मैं हूँ एक...</string>
+    <string name="role_farmer">किसान</string>
+    <string name="role_farmer_desc">मेरी जमीन है और मुझे कृषि श्रमिकों की आवश्यकता है</string>
+    <string name="role_worker">कृषि श्रमिक</string>
+    <string name="role_worker_desc">मुझे कृषि कार्य चाहिए और उचित मजदूरी कमाना चाहता हूँ</string>
+
+    <string name="full_name">पूरा नाम</string>
+    <string name="village_town">गाँव / कस्बा</string>
+    <string name="district">ज़िला</string>
+    <string name="state">राज्य</string>
+    <string name="farm_size">खेत का आकार (एकड़)</string>
+    <string name="main_crops">मुख्य फसलें</string>
+    <string name="experience_years">कार्य अनुभव (वर्ष)</string>
+    <string name="select_skills">अपने कौशल चुनें</string>
+    <string name="complete_registration">पंजीकरण पूरा करें</string>
+
+    <string name="farmer_dashboard">किसान डैशबोर्ड</string>
+    <string name="find_workers">मजदूर खोजें</string>
+    <string name="post_a_job">काम पोस्ट करें</string>
+    <string name="my_jobs">मेरे काम</string>
+    <string name="applications">आवेदन</string>
+    <string name="hired_workers">रखे गए मजदूर</string>
+    <string name="wage_calculator">मजदूरी कैलकुलेटर</string>
+    <string name="ai_assistant">AI सहायक</string>
+
+    <string name="worker_dashboard">श्रमिक डैशबोर्ड</string>
+    <string name="find_jobs">काम खोजें</string>
+    <string name="nearby_jobs">पास के काम</string>
+    <string name="my_applications">मेरे आवेदन</string>
+    <string name="my_work">काम का इतिहास</string>
+    <string name="my_profile">मेरी प्रोफाइल</string>
+    <string name="reliability_score">विश्वसनीयता स्कोर: %1$d/100</string>
+    <string name="recommended_jobs">आपके लिए अनुशंसित काम</string>
+    <string name="per_day">₹%1$s / दिन</string>
+    <string name="apply_now">आवेदन करें</string>
+</resources>

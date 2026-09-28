@@ -1,0 +1,6 @@
+{
+  "name": "FarmConnect AI",
+  "description": "India-focused AI-powered agricultural workforce management platform connecting farmers and workers with multilingual support and mobile-first experience.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

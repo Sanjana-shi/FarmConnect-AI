@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agricultural Green Palette -->
+    <color name="primary_green">#1B5E20</color>
+    <color name="primary_green_light">#2E7D32</color>
+    <color name="primary_green_dark">#0D3B13</color>
+    <color name="accent_amber">#FF8F00</color>
+    <color name="accent_amber_light">#FFB300</color>
+
+    <color name="background_light">#F9FBF7</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_border">#E2E8F0</color>
+
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+
+    <color name="state_success">#16A34A</color>
+    <color name="state_warning">#D97706</color>
+    <color name="state_error">#DC2626</color>
+</resources>

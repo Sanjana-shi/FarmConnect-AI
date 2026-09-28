@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  # 1. MySQL 8 Database
+  mysql-db:
+    image: mysql:8.0
+    container_name: farmconnect-mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: farmconnect_db
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ../database/schema.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - farmconnect-net
+
+  # 2. Java Spring Boot REST Backend
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../docker/Dockerfile.backend
+    container_name: farmconnect-backend
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: mysql-db
+      DB_PORT: 3306
+      DB_NAME: farmconnect_db
+      DB_USER: root
+      DB_PASSWORD: password
+      JWT_SECRET: FarmConnectSecretKeyForIndianAgriLaborPlatform2026SecureKey!
+      ML_SERVICE_URL: http://ml-service:8000
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+    depends_on:
+      - mysql-db
+    networks:
+      - farmconnect-net
+
+  # 3. Python ML Microservice (FastAPI)
+  ml-service:
+    build:
+      context: ../ml-service
+      dockerfile: ../docker/Dockerfile.ml
+    container_name: farmconnect-ml
+    restart: always
+    ports:
+      - "8000:8000"
+    networks:
+      - farmconnect-net
+
+volumes:
+  mysql_data:
+
+networks:
+  farmconnect-net:
+    driver: bridge
